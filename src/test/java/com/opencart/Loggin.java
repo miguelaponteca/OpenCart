@@ -38,6 +38,7 @@ public class Loggin {
         driver.findElement(By.xpath("//input[@class='btn btn-primary']")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//a[contains(text(),'Continue')]")).click();
+        System.out.println("final");
     }
 
     @After
